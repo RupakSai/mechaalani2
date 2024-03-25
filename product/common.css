@@ -1,0 +1,14 @@
+main .cs-container{
+    width: 100vw;
+    height: fit-content;
+    background-color: #023279;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Changa', sans-serif;
+    padding: 30px;
+    font-size: 25px;
+    flex-direction: column;
+    gap: 10px;
+}

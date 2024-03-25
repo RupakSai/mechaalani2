@@ -1,0 +1,88 @@
+.main-head{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+    gap: 30px;
+}
+.main-head .main-h1{
+    height: 100px;
+    color: white;
+    width: 100%;
+    background-color: #023279;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  .form-group input[type="submit"] {
+    background-color: #ba8450;
+    color: #fff;
+    cursor: pointer;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #023279;
+  }
+
+  .main-head .flex-col{
+    display: flex;
+    justify-content: space-around;
+  }
+  @media (max-width: 1300px){
+    .flex-col{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 1000px){
+    .flex-col{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  @media (max-width:670px){
+    main .main-head .flex-col .ifrme{
+      width: 350px;
+    }
+    main .form-group input, .form-group textarea{
+      width: 300px;
+    }
+    /* .flex-col{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    } */
+    .form-container{
+      padding: 0 0 0 10px;
+      width: fit-content;
+    }
+  }

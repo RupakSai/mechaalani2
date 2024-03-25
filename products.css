@@ -1,0 +1,151 @@
+.pro-head{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.pro-head .pro-1{
+    height: 100px;
+    color: white;
+    width: 100%;
+    background-color: #023279;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.pro-head .pro-box{
+    height: 150px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+.pro-box .pro-title{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.pro-title span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.pro-title a{
+    color: black;
+    text-decoration: none;
+}
+.pro-title img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.pro-box .pro-sub-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.pro-sub-box .card{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #e7e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.pro-title .pro-descr{
+    font-size: 18px; text-transform:none;
+}
+
+
+/* Basic styles for the button/link */
+#quickAccessButton {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    background-color: #ba8450;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  #quickAccess {
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+}
+
+#quickAccessContent {
+    display: none;
+    height: 500px;
+    width: 80vw;
+    background-color: #f1f1f1;
+    /* Additional styling for the content div */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+  #quickAccessContent a{
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #023279;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.pro-box .prod-box{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.prod-box .prod-sub-box{
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.prod-sub-box img{
+    height: 240px;
+    width: 250px;
+}
